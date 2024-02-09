@@ -1,5 +1,5 @@
 <template>
-    <div class="flex">
+    <div class="flex h-screen">
         <!-- Side-nav -->
         <aside
             class="flex flex-col w-[6%] h-screen px-5 pb-8 pt-6 overflow-y-hidden bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
@@ -129,7 +129,7 @@
 
         </aside>
         <!-- Main -->
-        <div class="w-[65%] bg-[#f7f6fe] p-6 ">
+        <div class="w-[65%] bg-[#f7f6fe] p-6 overflow-y-scroll">
             <!-- Welcome Message -->
             <div class="flex justify-between">
                 <div>
@@ -507,7 +507,7 @@
         </div>
         <!-- Right-col -->
         <!-- Expenses and income -->
-        <div class="flex-1 bg-white px-4 pt-4 pb-2">
+        <div class="flex-1 bg-white px-4 pt-4 pb-2 overflow-y-scroll">
             <div class="w-full h-48 bg-white rounded-2xl px-5 py-4 border-2 border-[#ededed] ">
                 <div class="flex justify-between">
                     <h4 class="font-semibold text-lg">
@@ -742,19 +742,19 @@ const items = ref([
         checked: false
     },
     {
-        name: 'Motorcycle',
+        name: 'Item 4',
         checked: false
     },
     {
-        name: 'Motorcycle',
+        name: 'Item 5',
         checked: false
     },
     {
-        name: 'Motorcycle',
+        name: 'Item 6',
         checked: false
     },
     {
-        name: 'Motorcycle',
+        name: 'Item 7',
         checked: false
     },
 ])
